@@ -1,0 +1,21 @@
+.card-container {
+  border-radius: 15px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  filter: drop-shadow(0px 1px 4px #c6c6e2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+@media only screen and (max-width: 520px) {
+  .card-container {
+    height: 75px;
+    width: 120px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
